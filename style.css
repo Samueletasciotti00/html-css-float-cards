@@ -1,0 +1,25 @@
+/* Default settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Fredoka", sans-serif;
+}
+
+/* Header Settings */
+#intestazione{
+    margin: 40px;
+}
+
+h1{
+    color: #e53170;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+p{
+    text-align: center;
+}
