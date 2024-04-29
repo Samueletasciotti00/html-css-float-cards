@@ -3,9 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 body{
+    width: 80%;
+    margin: 40px auto;
     font-family: "Fredoka", sans-serif;
 }
 
@@ -23,3 +26,57 @@ h1{
 p{
     text-align: center;
 }
+
+
+/* cards settings */
+
+
+.raw::after{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+
+/* box settings⁄ */
+.box{
+    height: 100px;
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+    float: left;
+    background-color: black;
+    /* debug */
+    /* background-color: aquamarine; */   
+}
+
+.box img{   
+    height: 100%;
+    float: left;
+}
+
+.box h3{   
+   float: left;
+   color: white;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.box section{
+    color: white;
+    float: left;
+}
+
+
+/* details */
+.box h5{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mail{
+    color: lightblue;
+    margin-left: 10px;
+}
+
