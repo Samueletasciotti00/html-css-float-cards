@@ -27,9 +27,7 @@ p{
     text-align: center;
 }
 
-
 /* cards settings */
-
 
 .raw::after{
     content: "";
@@ -37,7 +35,6 @@ p{
     clear: both;
     width: 100%;
 }
-
 
 /* box settings⁄ */
 .box{
@@ -79,3 +76,6 @@ p{
     margin-left: 10px;
 }
 
+.box{
+    box-shadow: 1px 5px 5px black;
+}
